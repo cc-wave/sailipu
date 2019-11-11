@@ -5,3 +5,7 @@ bootstrap框架，栅格系统
 1.进入https://www.bootcss.com/文档，进行下载
 
 2.在页面中引入bootstrap.css和bootstrap.js以及jQuery.js
+
+# Detail
+侧边栏，引入插件
+
