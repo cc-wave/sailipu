@@ -1,0 +1,159 @@
+body{overflow-x: hidden;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{width: 100%;}
+ul,li{list-style:none;padding: 0;}
+.wrap{padding-top: 50px;}
+.container{max-width: 960px;margin: 0 auto;}
+/*导航*/
+nav .container-fluid{max-width: 960px;margin: 0 auto;}
+.dropdown .dropdown-menu{padding: 0;}
+.dropdown .dropdown-menu a{line-height: 38px;border-bottom: 1px  solid #ccc;}
+/*pc端*/
+.logo-p{padding: 0;}
+.logo-box{width: 140px;background: -webkit-linear-gradient(left,#1d1d50,#3175b7);
+background: -moz-linear-gradient(left,#1d1d50,#3175b7);
+background: linear-gradient(left,#1d1d50,#3175b7);}
+.logo-box span{display: block;color: #fff;}
+.logo-box span a{color: #fff;}
+.logo1{background: #fff;padding: 25px 10px;border-bottom-right-radius: 40px;}
+.logo2{background: -webkit-linear-gradient(left,#1c368c,#3175b7);
+background: -moz-linear-gradient(left,#1c368c,#3175b7);overflow: hidden;height: 0;
+background: linear-gradient(left,#1c368c,#3175b7);line-height: 50px;padding-left: 10px;}
+.logo3{height: 50px;line-height: 50px;padding-left: 10px;}
+/*移动端*/
+.logo-m{width: 130px;}
+/*主题一pc端*/
+.theme1-p{background: url(../img/ultrasound-l.jpg) no-repeat;padding-top: 6%;
+min-width: 960px;margin: 0 auto;background-size: cover;padding-bottom: 10%;}
+.theme-text{max-width: 960px;margin: 0 auto;}
+.theme-text h2{font-size: 42px;font-weight: bold;}
+.theme-text p{font-size: 18px;width: 380px;line-height: 1.5;}
+.theme-text a{display: block;background: #1B6D85; width: 120px;color: #FFFFFF;border-radius: 5px;
+text-align: center;padding: 8px 15px;}
+/*主题一m*/
+.theme1-m .theme-text h2{font-size: 18px;padding-left: 10px;}
+.theme1-m .theme-text p{font-size: 14px;width: 320px;padding-left: 10px;}
+.theme1-m .theme-text a{margin-left: 10px;}
+
+/*主题二pc端*/
+.theme2-p{background: url(../img/li-l.jpg) no-repeat;padding-top: 6%;color: #fff;
+min-width: 960px;margin: 0 auto;background-size: cover;padding-bottom: 10%;}
+.theme2-p .theme-text a{margin-left: 10px;background: rgba(9,117,117,.8);}
+/*主题二m*/
+.theme2-m{padding-top: 20px;}
+.theme2-m .theme-text h2{font-size: 18px;padding-left: 10px;}
+.theme2-m .theme-text p{font-size: 14px;width: 320px;padding-left: 10px;}
+.theme2-m .theme-text a{margin-left: 10px;}
+
+/*主题三pc端*/
+.theme3-p{background: url(../img/philips-watch-left-l.jpg) no-repeat;padding-top: 6%;color: #fff;
+min-width: 960px;margin: 0 auto;background-size: cover;padding-bottom: 10%;text-align: right;}
+.theme3-p .theme-text h2{text-shadow: 2px 2px 2px #ccc;}
+.theme3-p .more a{float: right;}
+/*主题三m*/
+.theme3-m{padding-top: 20px;}
+.theme3-m .theme-text h2{font-size: 18px;padding-left: 10px;}
+.theme3-m .theme-text a{margin-left: 10px;}
+/*注册*/
+.reg{background: #efefef;padding-bottom: 20px;}
+.reg ul li span{color: #50ad0a;}
+.reg .form-inline span{display: block;padding: 5px 0;}
+.reg .form-inline input{margin-bottom: 5px;}
+/*.reg .form-inline .form-control{width: 30%;}*/
+.reg .form-inline input[type="email"]{display: block;}
+.reg .box{background: url(../img/LM-MyPhilips-Banner.jpg) no-repeat;padding-top: 10%;padding-bottom: 40%;
+margin-left: 0;margin-right: 0; background-size: cover;}
+.reg .box h2,.reg .box h3{padding-left: 10px;}
+.reg .box h3{position: relative;top:10px;}
+/*帮助*/
+.help{background: #15a9d4;}
+.help .help-box{width: 430px;}
+.help form{position: relative;padding-bottom: 5px;}
+.help .help-box span{position: absolute;right: 10px;top: 10px;}
+/*地图*/
+.map{background: #122B40;color: #fff;}
+.map ul li a{color: #fff;line-height: 1.7;}
+/*链接*/
+.footer-link{background: -webkit-linear-gradient(top,#1c368c,#3175b7);
+background: -moz-linear-gradient(top,#1c368c,#3175b7);
+background: linear-gradient(top,#1c368c,#3175b7);}
+.p-link{color: rgb(11,140,195);margin-top: 10px;}
+.p-link img{width: 30px;display: block;}
+.p-link a:hover,.m-link a:hover{color: #fff;}
+.m-link{color: rgb(11,140,195);margin-top: 50px;max-width: 87px;margin: 0 auto;text-align: center;}
+.m-link img{width: 30px;display: block;margin: 0 auto;}
+.logo-link{width: 100px;margin: 20px auto;}
+.language{width: 130px;margin: 25px auto;border: 1px solid #ccc;background: #fff;border-radius: 5px;padding: 2px 3px;}
+.language>a{color: #000;text-decoration: none;text-align: center;display: block;}
+.language .dropdown-menu{min-width: 130px;}
+.language ul a{padding: 0 ;text-align: center;}
+.footer{text-align: center;margin-bottom: 12px;}
+.footer ul li{display: inline-block;}
+.footer ul a{color: #fff;border-right: 1px solid #fff;padding-right: 3px;}
+.footer ul li:last-child a{border: 0;}
+.footer p{color: #fff;text-align: center;}
+
+/*列表页的内容*/
+/*标签页*/
+.list-nav{margin:20px auto;}
+.list-nav .tab-pane{border: 1px solid#DDDDDD;border-top: 0;line-height: 2em;}
+.list-nav .tab-pane h5{margin: 0;padding: 10px;}
+.list-nav #one>div,.list-nav #two>div{border-bottom: 1px dashed #ccc;padding: 10px 10px;overflow: hidden;}
+.list-nav #one>div:last-child{border: 0;}
+.list-nav #two{height: 550px;}
+.list-nav  h5{padding: 0;color: #000;}
+.list-nav  p{color: #666;font-size: 12px;}
+.list-nav  time{font-size: 12px;}
+.list-nav  button{float: right;background: #15A9D4;border: 0;}
+.list-nav  button a{color: #fff;}
+.list-nav .button ul{margin: 10px 0 0;}
+.list-nav .button li a{background: #ccc;padding: 3px 10px;}
+.list-nav .button a:hover{background: #15A9D4;color: #fff;}
+.list-nav h4{color: darkblue;}
+.list-nav .tab-pane>div p{overflow: hidden;width: 60%;white-space: nowrap;text-overflow: ellipsis;}
+/*左边添加列表图片*/
+.list-nav #one .list1 .img{background: url(../img/news_2.jpg) no-repeat;
+background-size: 100%;float: left;margin-right: 10px;
+width: 200px;height:130px;}
+.list-nav #one .list2 .img{background: url(../img/news_3.jpg) no-repeat;
+background-size: 100%;float: left;margin-right: 10px;
+width: 200px;height:130px;}
+.list-nav #one .list3 .img{background: url(../img/news_4.jpg) no-repeat;
+background-size: 100%;float: left;margin-right: 10px;
+width: 200px;height:130px;}
+.list-nav #two .list1 .img{background: url(../img/news_1.jpg) no-repeat;
+background-size: 100%;float: left;margin-right: 10px;
+width: 200px;height:130px;}
+/*右边推荐新闻样式*/
+.list-box{margin-bottom: 20px;}
+.list-box h5{color: darkblue;font-size: 12px;}
+.list-box button{font-size: 12px;}
+.list-box .list1,.list-box .list2,.list-box .list3,.list-box .list4{margin-top: 15px;
+	width: 100%;height: 100px;box-shadow: 4px 3px 2px #ccc;padding: 5px;}
+.list-box .list1 .img,.list-box .list2 .img,.list-box .list3 .img,.list-box .list4 .img{
+	width: 100px;height:70px;margin: 10px;}
+.list-box .list1 .img{background: url(../img/news_2.jpg) no-repeat;background-size: 100%;float: left;}
+.list-box .list2 .img{background: url(../img/news_3.jpg) no-repeat;background-size: 100%;float: left;}
+.list-box .list3 .img{background: url(../img/news_4.jpg) no-repeat;background-size: 100%;float: left;}
+.list-box .list4 .img{background: url(../img/news_1.jpg) no-repeat;background-size: 100%;float: left;}
+
+
+/*详情页 pc端*/
+.detail-theme-p{background: url(../img/ultrasound-l.jpg) no-repeat;padding-top: 8%;
+min-width: 960px;min-height: 440px; margin: 0 auto;background-size: cover;padding-bottom: 10%;}
+.detail-theme-p .theme-text{max-width: 960px;margin: 0 auto;}
+/*详情页内容*/
+.main h3{border-bottom: 1px solid #ccc;padding-bottom: 20px;}
+.main .second{margin-top: 20px;}
+.main .second ul li:nth-child(3) a{padding:3px 10px;background: #15A9D4;color: #fff;width: 110px;}
+
+/*侧边栏*/
+.sidebar{width: 50px;position: fixed;top: 300px;right: -50px;background: #fff;}
+.sidebar p{width: 20px;text-align: center;color: #fff;background: #15A9D4;
+position: absolute;right: 50px;top: 30%;}
+.sidebar .code{width: 140px;position: absolute;right:50px;top: 30px;border: 1px solid #15A9D4; display: none;}
+.sidebar ul li:nth-child(2):hover .code{display: block;}
+/*返回顶部*/
+.backtop{position: fixed;z-index: 10;bottom: 10px;right: 10px;display: none;}
+.backtop i{font-size: 28px;color: rgba(255,255,255,.5);background: rgba(128,128,128,.5);}
